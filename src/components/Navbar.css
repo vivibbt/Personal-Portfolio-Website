@@ -1,0 +1,146 @@
+
+.navitem {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* width: 200px; */
+  max-width: 70%;
+  transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out, max-width 3s ease-in-out;
+}
+
+.navitem:hover {
+  justify-content: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.63);
+  font-weight: 700;
+  max-width: 100%;
+}
+
+
+/* @keyframes width_animation {
+  from {
+    width: 70%;
+  }
+  to {
+    width: 100%;
+  }
+} */
+
+/* .navitem-user {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  left: 15px;
+  width: 200px;
+  max-width: 70%;
+  transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out, max-width 3s ease-in-out;
+}
+
+.navitem-user:hover {
+  justify-content: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.63);
+  font-weight: 700;
+  max-width: 100%;
+} */
+
+/* 
+@keyframes width_animation_1 {
+  from {
+    width: 70%;
+  }
+  to {
+    width: 100%;
+  }
+} */
+
+#navbar {
+  background-color: rgb(255, 255, 255); 
+  justify-content: center;
+  position: fixed; 
+  top: -1%; 
+  width: 100%; 
+  transition: top 0.5s;
+}
+
+/* #navbar:hover {
+  background-color: rgb(255, 255, 255); 
+}
+
+.navitem_ul.active {
+  text-decoration: underline;
+  color:rgb(165, 79, 79);
+} */
+
+#login-btn {
+  width:175px;
+  background-color: rgb(165, 79, 79);
+  color: white;
+  transition: 0.2s;
+}
+
+#login-btn:hover {
+  font-weight: 800;
+
+}
+/* 
+#get_app-btn {
+  width:160px;
+  transition: 0.2s;
+}
+
+#get_app-btn:hover {
+  font-weight: bold;
+} */
+
+.gradient::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  border-radius: 8px;
+}
+
+.gradient:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  border-radius: 8px;
+}
+
+.gradient::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgba(185, 88, 88, 0.334);
+  z-index: -1;
+  transition: transform .2s ease-in-out;
+  border-radius: 8px;
+}
+
+.gradient {
+  position: relative;
+  border-radius: 8px;
+}
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  font-family: system-ui, sans-serif;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+

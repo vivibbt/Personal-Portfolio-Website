@@ -2,6 +2,7 @@ import React from 'react'
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import Link from "@material-ui/core/Link"
 import '../styles/Home.css'
 
 export default function Home() {
@@ -16,9 +17,15 @@ export default function Home() {
           <p> 
             I am a software engineer whose career objective is to apply my knowledge of computer science and software development principles to design and develop high-quality software solutions. 
           </p>
+          <Link href="https://www.instagram.com/vivianzzhao/" target="_blank" >
           <InstagramIcon/>
-          <GithubIcon/>
-          <LinkedInIcon/>
+          </Link>
+          <Link href="https://github.com/vivibbt" target="_blank" >
+            <GithubIcon/>
+          </Link>
+          <Link href="https://www.linkedin.com/in/vivian-zhao-9204b31a3/" target="_blank" >
+            <LinkedInIcon/>
+        </Link>
         </div>
       </div>
       <div className='skills'> 

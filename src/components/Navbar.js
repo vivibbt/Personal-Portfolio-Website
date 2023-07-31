@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import { Link, useLocation } from "react-router-dom";
 import './Navbar.css';
@@ -65,7 +64,7 @@ export default function NavbarComponent() {
                 <Nav className="justify-content-end" style={{ width: "100%" }}>
                   <Link className="nav-link" to="/get_app">
                     <button type="button" className='btn btn-outline-secondary fs-5 px-4' id='get_app-btn'>
-                          TEMP
+                          Vivian
                     </button>
                   </Link> 
                   {/* <Link className="nav-link mx-4" to="/login">

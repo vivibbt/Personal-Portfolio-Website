@@ -14,10 +14,10 @@ function Footer() {
         <Link href="https://www.instagram.com/vivianzzhao/" target="_blank" >
           <InstagramIcon/>
         </Link>
-        <Link href="https://www.instagram.com/vivianzzhao/" target="_blank" >
+        <Link href="https://github.com/vivibbt" target="_blank" >
           <GithubIcon/>
         </Link>
-        <Link href="https://www.instagram.com/vivianzzhao/" target="_blank" >
+        <Link href="https://www.linkedin.com/in/vivian-zhao-9204b31a3/" target="_blank" >
           <LinkedInIcon/>
         </Link>
 
